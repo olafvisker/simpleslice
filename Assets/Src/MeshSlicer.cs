@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
-public class MeshCutter {
+public class MeshSlicer {
     public (GameObject, GameObject) CutGameObject(GameObject target, Vector3 normal, Vector3 point) {
         Plane cuttingPlane = new Plane(target.transform.InverseTransformDirection(normal), 
                                         target.transform.InverseTransformPoint(point));
