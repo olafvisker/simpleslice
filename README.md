@@ -2,7 +2,7 @@
 A realtime mesh slicer for the game engine Unity3d, capable of dynamically separating concave objects into multiple parts.
 
 ## how to use
-Simply add the **MeshCutter.cs** to your project.
+Simply add the **MeshSlicer.cs** to your project.
 The code below shows you how to separate a rigidbody into two rigidbodies.
 
 ```c#
@@ -39,3 +39,5 @@ private void Cut(GameObject target, Vector3 normal, Vector3 point) {
 
 ## example
 ![slice_img](https://github.com/olafvisker/simpleslice/blob/master/Img/slice.png "Sliced Cube")
+
+**enjoy!**
