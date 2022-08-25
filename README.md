@@ -32,11 +32,6 @@ private void Cut(GameObject target, Vector3 normal, Vector3 point) {
 }
 ```
 
-## todo
-- [x] Calculate UVs for cap
-- [x] Cut concave objects
-- [ ] Assign n > 2 objects to their own gameobjects 
-
 ## example
 ![slice_img](https://github.com/olafvisker/simpleslice/blob/master/Img/slice.png "Sliced Cube")
 
